@@ -23,6 +23,7 @@ on:
       - '!set_grub_cpu.sh'
       - '**.txt'
       - '**.vbs'
+  workflow_dispatch:
 
 env:
   BUILD_TYPE: RELEASE
